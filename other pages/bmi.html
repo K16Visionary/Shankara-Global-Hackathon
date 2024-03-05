@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well 4 U</title>
+<style>
+    body{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(201, 187, 187);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+
+}
+
+
+
+.contact-us {
+    font-weight: bold;
+}
+a:-webkit-any-link {
+    color: black;
+}
+
+
+
+.explore__grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+        .explore__card {
+  padding: 1rem;
+  background-color: #4d4f53;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.3s;
+  width: 90%;
+  margin-left: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+.explore__card span {
+  display: inline-block;
+  padding: 2px 9px;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color:#ffffff;
+  border-radius: 5px;
+}
+.explore__card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.explore__card p {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+.explore__card a {
+  color: #ffffff;
+  transition: 0.3s;
+}
+nav {
+           max-width: 1200px;
+           margin: auto;
+           padding: 2rem 1rem;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           gap: 2rem;
+}
+.nav__logo {
+           max-width: 150px;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+.link a {
+  position: relative;
+  padding-bottom: 0.75rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.link a:hover::after {
+  width: 50%;
+}
+.btn {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #d79447;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+}
+.box{
+    border-style: solid; 
+    border-color: black;
+    border-radius: 2px;
+
+}
+.text{
+    text-align: center;
+    color: black;
+    text-shadow: 4px 4px 4px wheat;
+}
+.explore__card2{
+    padding: 1rem;
+  background-color: #0c1528;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: 0.3s;
+  width: 90%;
+  margin-left: 3.2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+/* Previous CSS... */
+
+/* Header Styling */
+.header-container {
+  display: flex;           /* Use flexbox for alignment */
+  justify-content: space-between; /* Space between logo and link */
+  align-items: center;     /* Vertically center */
+  width: 100%;             /* Ensure it takes full navbar width */
+}
+
+.contact-us {
+  /* Style the Contact Us link as needed, e.g., bold font */
+  font-weight: bold;
+}
+
+
+.navbar {
+  background-color: white ; /* White background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+
+
+</style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+      <div class="header-container">  <a href="#" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+          <h2 class="m-0 text-primary">Well 4 U</h2>
+        </a>
+        <a href="./joinnow.html" class="nav-item nav-link contact-us">Home</a>
+        <a href="./contact.html" class="nav-item nav-link contact-us">Contact Us</a>
+      </div>
+      <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          </div>
+      </div>
+    </nav>
+  </header>
+
+   
+                <div class="explore__card">
+                   <span><i class="ri-boxing-fill"></i></span>
+                   
+                   <main>
+
+        <h2  style="color: black"
+             text-shadow = "4px 4px 4px wheat">BMI introduction</h2>
+        <p>BMI is a measurement of a person's leanness or corpulence based on their height and weight, 
+            and is intended to quantify tissue mass. It is widely used as a general indicator of whether 
+            a person has a healthy body weight for their height. Specifically, the value obtained from the 
+            calculation of BMI is used to categorize whether a person is underweight, normal weight, 
+            overweight, or obese depending on what range the value falls between. These ranges of BMI vary 
+            based on factors such as region and age, and are sometimes further divided into subcategories 
+            such as severely underweight or very severely obese. Being overweight or underweight can have 
+            significant health effects, so while BMI is an imperfect measure of healthy body weight, it is 
+            a useful indicator of whether any additional testing or action is required. Refer to the table 
+            \below to see the different categories based on BMI that are used by the calculator.</p>
+            <br>
+            <div class="text">
+            <h1>Calculate Your BMI</h1>
+            </div>
+            <div class="explore__card2">
+              
+                <p>Height in CM:
+                    <input type="text" id="height"><br><span id="height_error"></span>
+                </p>
+        
+                <p>Weight in KG:
+                    <input type="text" id="weight"><br><span id="weight_error"></span>
+                </p>
+        
+                <button id="btn">Calculate</button>
+                <p id="output"></p>
+                        </div>
+                        <br>
+                </div>
+                <br>
+                <br>
+
+    </div>
+    </main>
+    <script>
+        let button = document.getElementById('btn');
+
+button.addEventListener('click', () => {
+    const height = parseInt(document.getElementById('height').value);
+    const weight = parseInt(document.getElementById('weight').value);
+    const result = document.getElementById('output');
+    let height_status=false, weight_status=false;
+
+    if(height === '' || isNaN(height) || (height <= 0)){
+        document.getElementById('height_error').innerHTML = 'Please provide a valid height';
+    }else{
+        document.getElementById('height_error').innerHTML = '';
+        height_status=true;
+    }
+
+    if(weight === '' || isNaN(weight) || (weight <= 0)){
+        document.getElementById('weight_error').innerHTML = 'Please provide a valid weight';
+    }else{
+        document.getElementById('weight_error').innerHTML = '';
+        weight_status=true;
+    }
+
+    if(height_status && weight_status){
+        const bmi = (weight / ((height*height)/10000)).toFixed(2);
+
+        if(bmi < 18.6){
+            result.innerHTML = 'Under weight : ' + bmi;
+        }else if(bmi >= 18.6 && bmi < 24.9){
+            result.innerHTML = 'Normal : ' + bmi;
+        }else{
+            result.innerHTML = 'Over weight : ' + bmi;
+        }
+    }else{
+        alert('The form has errors');
+        result.innerHTML = '';
+    }
+});
+    </script>
+</body>
+</html>

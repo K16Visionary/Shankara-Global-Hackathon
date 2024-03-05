@@ -1,0 +1,121 @@
+body {
+ background-image: url("../img/b.jpg");
+ background-color: #cccccc;
+ min-height: 200%;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+h3 {
+    color: #f8f9fa
+}
+
+.bg-light {
+    background-color: #6e8b68a1 !important;
+}
+
+.exercise-card {
+    border: 1px solid lightgray;
+    background-color: #f8f9fa;
+}
+
+.btn-group {
+    flex-wrap: wrap;
+}
+
+
+.btn {
+    background-color: darkgray;
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    box-shadow: none;
+}
+
+.btn-check:checked+.btn-outline-primary {
+    color: rgba(0, 0, 0, .85);
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    box-shadow: none;
+}
+
+.btn:focus {
+    background-color: darkgray;
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    box-shadow: none;
+}
+
+/* .btn-check::after {
+    color: rgba(0, 0, 0, .85);
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    box-shadow: none;
+} */
+
+.btn:active {
+    color: rgba(0, 0, 0, .85);
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    box-shadow: none;
+}
+
+.btn:hover {
+    color: rgba(0, 0, 0, .85);
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    box-shadow: none;
+}
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.text-primary {
+    color: black!important;
+}
+.bg-white {
+    background-color: white!important;
+}
+.p-0 {
+    padding: 20px!important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: black(0,0,0,.9);
+    font-size: 25px;
+}
+.text-center {
+    text-align:center!important;
+}
+h3 {
+    color: black;
+}
+.btn {
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: none;
+}
+.btn {
+    font-size: 23px;
+    color: black;
+}
